@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
     def setUp(self):
 
         self.tw = AppTwitter()
-        self.usuariomock = Mock(user_id = "547391733", handle = "SkaterZombie8", lugar = "Saltillo Coahuila de Zaragoza",\
+        self.usuariomock = Mock(user_id = "547391733", handle = "SkaterZombie8", lugar = "Saltillo, Coahuila de Zaragoza",\
         verificado = "Usuario no verificado.",  followers = 22, numtweets = 71, friends = 72,\
         description = "Futuro Ing. En sistemas", lenguaje = "es",\
          profile = "http://pbs.twimg.com/profile_images/953711785185390592/iclwWUQn_normal.jpg",\
