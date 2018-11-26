@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
     def setUp(self):
 
         self.tw = AppTwitter()
-        self.usuariomock = Mock(user_id = "547391733", handle = "SkaterZombie8", lugar = "Saltillo Coahuila",\
+        self.usuariomock = Mock(user_id = "547391733", handle = "SkaterZombie8", lugar = "Saltillo Coahuila de Zaragoza",\
         verificado = "Usuario no verificado.",  followers = 22, numtweets = 71, friends = 72,\
         description = "Futuro Ing. En sistemas", lenguaje = "es",\
          profile = "http://pbs.twimg.com/profile_images/953711785185390592/iclwWUQn_normal.jpg",\
@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
         self.sql = basedb()
         self.sql.insert_db(self.usuario)
 
-        self.usuario1 = Tweeti('15228314','Moco','Demacia','chi',2,70000,4,'','es','url',None,None,0,0)
+        self.usuario1 = Tweeti('15228314','Moco','Demacia','chi',2,7000,4,'','es','url',None,None,0,0)
 
     def tearDown(self):
         print("Fin de la prueba")
